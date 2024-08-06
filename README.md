@@ -1,8 +1,9 @@
-# 连接小爱同学
+# 通过小爱同学控制灯的开关，检测到倾斜就通过mqtt发送消息，检测到人靠近也发送消息
+
+##wifi设置
 
 rw007设置（上面有具体路径）
 ![image](https://github.com/user-attachments/assets/9276fcd7-b66b-45ef-b164-a88ddab5396f)
-
 
 
 mqtt.fx调试步骤 https://bemfa.com/m/mqttfx.html
@@ -19,3 +20,14 @@ mqtt.fx调试步骤 https://bemfa.com/m/mqttfx.html
 
 巴法云接入文档
 https://cloud.bemfa.com/docs/src/mqtt.html
+
+代码
+```
+//已写好
+```
+
+板子调试结果
+![image](https://github.com/user-attachments/assets/54f7f1aa-384c-496b-aea0-59eeeedfd195)
+
+加入倾斜
+
